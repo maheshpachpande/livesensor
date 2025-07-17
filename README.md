@@ -2,6 +2,8 @@
 
 ### Step:1 Create a GitHub repository to manage code versioning effectively.
 - git clone <https link>
+- Git is the tool, GitHub is the online service that helps you use that tool for collaboration and sharing (code versioning).
+
 
 ### Step:2 Create a Conda virtual environment to isolate dependencies and manage packages efficiently for your project.
 - conda create -n sensor python=3.9 -y
@@ -15,3 +17,15 @@
 
 - template.py (python template.py)
 
+### Step:4
+
+- setup.py makes a Python project installable, reusable, and ready for distribution or deployment by defining its metadata and dependencies.
+
+- setup.py (python setup.py install)
+
+- requirements.txt (pip install -r requirements.txt)
+- The -r flag is required to indicate you want pip to install from a requirements file, not a single package by that name. It helps automate dependency management and maintain consistency across environments.
+
+-  What Does -e . Mean?
+    -- e stands for editable.
+    -- . refers to the current directory (where setup.py is located).
